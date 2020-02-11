@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 1.5vw;
+  right: 2.5vw;
+  left: 2.5vw;
+  z-index: 10;
+  width: 95vw;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2.5px 5px #aaa;
+  padding: .5rem 1.5rem;
+}
+
+#title {
+  font-weight: bold;
+  padding-right: .5rem;
+  margin-right: .5rem;
+  border-right: 1px solid black;
+}
+
+#subtitle {
+}
