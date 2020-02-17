@@ -1,0 +1,12 @@
+button {
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  box-shadow: none;
+  background-color: #007aff;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+}

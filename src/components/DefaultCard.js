@@ -1,16 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import CityCard from "./CityCard";
 import CardContainer from "./CardContainer";
 
 const DefaultCard = props => (
   <CardContainer>
     <div className="title-container">
-      <p className="title">Erasmus+</p>
+      <h1 className="title">Erasmus+</h1>
       <p className="subtitle">Off the beaten path</p>
     </div>
-    <Link to="/budapest-tisztviselotelep">
-      <p>MENYE TISZTVISELOTELEPRE</p>
-    </Link>
+    <h2>Explore cities</h2>
+    <CityCard />
   </CardContainer>
 );
 

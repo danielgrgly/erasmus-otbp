@@ -1,0 +1,36 @@
+.city-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+}
+
+.city-card-title {
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+.city-card-subtitle {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.city-card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 1rem;
+}

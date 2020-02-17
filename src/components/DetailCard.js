@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 import CardContainer from "./CardContainer";
 
 const DetailCard = props => (

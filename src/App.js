@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { DefaultCard, Map, DetailCard } from "./components";
-import "./App.css";
 
 function App() {
   return (
