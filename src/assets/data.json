@@ -4,6 +4,17 @@
     "subtitle": "Budapest, Hungary",
     "thumbnail": "https://konzervatorium.blog.hu/media/image/dszg/templom1.jpg",
     "path": "/budapest-tisztviselotelep",
-    "description": "tisztviselotelep.md"
+    "description": "tisztviselotelep.md",
+    "center": [19.0956, 47.48],
+    "geopoints": [[]]
+  },
+  "eindhoven-tue": {
+    "title": "TUe",
+    "subtitle": "Eindhoven, Netherlands",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/e/ea/TUe_by_night.png",
+    "path": "/eindhoven-tue",
+    "description": "tisztviselotelep.md",
+    "center": [5.490618, 51.448737],
+    "geopoints": [[]]
   }
 }
