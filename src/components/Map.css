@@ -5,3 +5,34 @@
   left: 0;
   bottom: 0;
 }
+
+.mapboxgl-popup-content {
+  padding: 10px;
+  max-width: 300px;
+  padding-top: 20px;
+}
+.mapboxgl-popup-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.mapboxgl-popup-content ul h3 {
+  margin: 0 0 10px 0;
+}
+
+.mapboxgl-popup-content img {
+  float: left;
+  width: 30px;
+  margin-right: 10px;
+}
+
+#card {
+  height: 5rem;
+  width: 10rem;
+  background: red;
+  border-radius: 5px;
+  z-index: 100000;
+  position: absolute;
+}
