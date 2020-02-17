@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-
 import ReactMapboxGl from "react-mapbox-gl";
 
 import "./Map.css";
 
 const MapboxMap = ReactMapboxGl({
-  accessToken: process.env.REACT_APP_MAPBOX_KEY
+  accessToken: process.env.REACT_APP_MAPBOX_KEY,
+  interactive: false
 });
 
 const Map = props => {
@@ -16,7 +16,11 @@ const Map = props => {
 
   useEffect(() => {
     const data = require("../assets/data.json");
-    const param = window.location.pathname.substring(1, window.location.pathname.length);
+    const param = window.location.pathname.substring(
+      1,
+      window.location.pathname.length
+    );
+
     if (param) {
       if (zoom != 12.5) {
         setCenter(data[param].center);
@@ -28,6 +32,7 @@ const Map = props => {
         setZoom([3.5]);
       }
     }
+
     // map.on("load", () => {
     //   map.addSource("tisztviselotelep", {
     //     type: "geojson",
