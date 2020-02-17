@@ -1,19 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import "../assets/data.json";
 
 import "./CityCard.css";
 
-const CityCard = props => (
-  <Link to="/aaaa">
-    <div className="city-card">
-      <div className="city-card-details">
-        <h3>Tisztviselotelep</h3>
-        <p className="city-card-subtitle">Budapest, Hungary</p>
-        {/* <Button>Visit</Button> */}
+const CityCard = props => {
+  return (
+    <Link to={props.data.path}>
+      <div className="city-card">
+        <div className="city-card-details">
+          <h3>{props.data.title}</h3>
+          <p className="city-card-subtitle">{props.data.subtitle}</p>
+        </div>
+        <img src={props.data.thumbnail} />
       </div>
-      <img src="https://konzervatorium.blog.hu/media/image/dszg/templom1.jpg" />
-    </div>
-  </Link>
-);
+    </Link>
+  );
+};
 
 export default CityCard;

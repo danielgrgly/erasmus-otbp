@@ -19,7 +19,8 @@ const Map = props => {
       center: [lng, lat],
       zoom: zoom,
       maxZoom: 14,
-      minZoom: 3.5
+      minZoom: 3.5,
+      interactive: false
     });
 
     map.on("load", () => {
