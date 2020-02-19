@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-02-19T10:13:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/3182106",
+        "admin_level": "10",
+        "boundary": "administrative",
+        "name": "Tisztviselőtelep",
+        "type": "boundary",
+        "wikidata": "Q570844",
+        "wikipedia": "hu:Tisztviselőtelep (Budapest)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [19.0986707, 47.4756216],
+            [19.1018683, 47.4800071],
+            [19.1035832, 47.4821411],
+            [19.1034517, 47.482186],
+            [19.1034028, 47.482203],
+            [19.103206, 47.4822716],
+            [19.1029046, 47.4823781],
+            [19.0928534, 47.4857905],
+            [19.0928615, 47.4855393],
+            [19.0929414, 47.4849831],
+            [19.0930387, 47.4843704],
+            [19.0932168, 47.4830951],
+            [19.0933789, 47.482032],
+            [19.0934844, 47.4811305],
+            [19.093457, 47.4810201],
+            [19.0934096, 47.4809413],
+            [19.0933399, 47.4808703],
+            [19.0932512, 47.4807982],
+            [19.0931092, 47.4807229],
+            [19.0919846, 47.4802639],
+            [19.0906095, 47.4797251],
+            [19.0893278, 47.4791006],
+            [19.0939432, 47.477382],
+            [19.0986707, 47.4756216]
+          ]
+        ]
+      },
+      "id": "relation/3182106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/902616293",
+        "@relations": [
+          {
+            "role": "admin_centre",
+            "rel": "3182106",
+            "reltags": {
+              "admin_level": "10",
+              "boundary": "administrative",
+              "name": "Tisztviselőtelep",
+              "type": "boundary",
+              "wikidata": "Q570844",
+              "wikipedia": "hu:Tisztviselőtelep (Budapest)"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.097577, 47.4806738]
+      },
+      "id": "node/902616293"
+    }
+  ]
+}

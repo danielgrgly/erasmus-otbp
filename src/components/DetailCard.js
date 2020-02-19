@@ -9,7 +9,7 @@ const DetailCard = props => {
   const data = require("../assets/data.json");
 
   useEffect(() => {
-    fetch(require(`../assets/${data[id].description}`))
+    fetch(require(`../assets/markdown/${data[id].description}`))
       .then(response => response.text())
       .then(text => {
         setDescription(text);

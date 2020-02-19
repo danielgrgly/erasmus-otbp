@@ -22,8 +22,13 @@ const Map = props => {
     );
 
     if (param) {
+      const geojson = require(`../assets/geojson/${data[param].geojson}`);
+      const centerPoint = geojson.features.filter(
+        item => item.geometry.type == "Point"
+      )[0].geometry.coordinates;
+
       if (zoom != 12.5) {
-        setCenter(data[param].center);
+        setCenter(centerPoint);
         setZoom([12.5]);
       }
     } else {
